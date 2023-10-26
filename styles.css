@@ -31,6 +31,12 @@ ul li {
   list-style-type: none;
   font-size: 1.3rem;
 }
+ul li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 2px;
+  color: #fff;
+}
 .btn-en {
   padding: 1rem 2rem;
   border: 1px solid #fff;
@@ -58,6 +64,7 @@ ul li {
   padding: 0.6rem 1rem;
   background-color: orange;
   border-radius: 1.2rem;
+  color: #fff;
 }
 .coin-list {
   display: flex;
@@ -86,5 +93,4 @@ ul li {
 }
 .coin p .name {
   color: orange;
-  
 }
